@@ -70,7 +70,7 @@ public class CredentialResolver {
 	/**
 	 * Resolve a credential.
 	 */
-	public Map resolve(Map args) {
+	public Map<String, String> resolve(Map<String, String> args) {
 		loadProps();
 		String id = (String) args.get(ARG_ID);
 		String type = (String) args.get(ARG_TYPE);
@@ -168,7 +168,7 @@ public class CredentialResolver {
 			e.printStackTrace();
 		}
 		// the resolved credential is returned in a HashMap...
-		Map result = new HashMap();
+		Map<String, String> result = new HashMap<String, String>();
 		result.put(VAL_USER, username);
 		result.put(VAL_PSWD, password);
 		result.put(VAL_PKEY, private_key);

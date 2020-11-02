@@ -1,0 +1,8 @@
+/target/
+/lib/*.jar
+.DS_Store
+.classpath
+.project
+.Manifest
+*.jardesc
+.settings

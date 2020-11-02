@@ -17,10 +17,10 @@ You can download the binaries directly from the [releases](https://github.com/Je
 ### From Source:
 
 * HashiCorpVaultCredentialResolver requires JDK 1.8 or newer and Custom Vault Java Driver (attached to the release tag).
-* Import the project in Eclipse
 * Add Mid.jar to Java Build Path
-* As well as vault-java-driver.jar
-* Export to JAR File
+* As well as vault-java-driver-5.3.0.jar
+* Import the project in Eclipse (as a maven project) OR just run mvn package to build the jar
+* your yar will be in the target folder
 
 ## Running the tests
 
