@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.snc.discovery</groupId>
@@ -10,7 +9,22 @@
 	<packaging>jar</packaging>
 
 	<name>VaultCredentialResolver</name>
-	<url>http://www.example.com</url>
+
+	<developers>
+		<developer>
+			<name>Jean-François (Jef) Muller</name>
+		</developer>
+	</developers>
+
+	<contributors>
+		<contributor>
+			<name>Christian Zyweck</name>
+			<email>christian.zyweck@tmlabs.com.au</email>
+			<roles>
+				<role>Committer</role>
+			</roles>
+		</contributor>
+	</contributors>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
